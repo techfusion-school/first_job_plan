@@ -1,3 +1,5 @@
+package school.techfusion.lang;
+
 import java.util.*;
 
 public class JavaCollectionsFramework_3 {

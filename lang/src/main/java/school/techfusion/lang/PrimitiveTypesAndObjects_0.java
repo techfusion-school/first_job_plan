@@ -1,3 +1,5 @@
+package school.techfusion.lang;
+
 @SuppressWarnings({"unused", "ConstantValue"})
 public class PrimitiveTypesAndObjects_0 {
 

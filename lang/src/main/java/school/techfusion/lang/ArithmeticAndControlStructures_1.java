@@ -1,3 +1,5 @@
+package school.techfusion.lang;
+
 import java.util.List;
 
 @SuppressWarnings({"unused", "ConstantValue", "SameParameterValue"})

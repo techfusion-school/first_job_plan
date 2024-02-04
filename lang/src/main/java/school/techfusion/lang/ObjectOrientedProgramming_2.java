@@ -1,3 +1,5 @@
+package school.techfusion.lang;
+
 public class ObjectOrientedProgramming_2 {
 
     public static void main(String[] args) {
