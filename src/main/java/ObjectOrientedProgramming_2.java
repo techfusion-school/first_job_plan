@@ -8,8 +8,6 @@ public class ObjectOrientedProgramming_2 {
         Message msg = textMessage;
         System.out.println(msg.getAuthor());
     }
-
-
 }
 
 interface Message {

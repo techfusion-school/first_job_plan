@@ -4,7 +4,6 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 public class Concurrency_5 {
 
-
     public static void main(String[] args) throws InterruptedException {
         // Потоки. Отличие от Процесса. Порядок запуска и вывода
         new Thread(() -> {
