@@ -22,6 +22,7 @@ public class JunitExample_5 {
 
     @Test
     public void shouldFilterPositiveValues() {
+
         // given
         PositiveIntegerFilter positiveIntegerFilter = new PositiveIntegerFilter();
 
