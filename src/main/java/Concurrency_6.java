@@ -7,25 +7,25 @@ public class Concurrency_6 {
 
     public static void main(String[] args) throws InterruptedException {
         // Потоки. Отличие от Процесса. Порядок запуска и вывода
-//        new Thread(() -> {
-//            System.out.println("Hello");
-//        }).start();
-//
-//        new Thread(() -> {
-//            System.out.println("World");
-//        }).start();
+        new Thread(() -> {
+            System.out.println("Hello");
+        }).start();
+
+        new Thread(() -> {
+            System.out.println("World");
+        }).start();
 
         // Примитивы синхронизации. volatile, synchronized
-//        VolatileUpdate volatileUpdate = new VolatileUpdate();
-//        new Thread(() -> {
-//            //noinspection StatementWithEmptyBody
-//            while (!volatileUpdate.isSet()) {
-//            }
-//            System.out.println("Thread exited");
-//        }, "SetWaiter").start();
-//        Thread.sleep(10000);
+        VolatileUpdate volatileUpdate = new VolatileUpdate();
+        new Thread(() -> {
+            //noinspection StatementWithEmptyBody
+            while (!volatileUpdate.isSet()) {
+            }
+            System.out.println("Thread exited");
+        }, "SetWaiter").start();
+        Thread.sleep(10000);
 
-//        new Thread(volatileUpdate::set).start();
+        new Thread(volatileUpdate::set).start();
 
         // wait/notify
         Object obj = new Object();
