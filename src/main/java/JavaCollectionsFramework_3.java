@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class JavaCollectionsFramework_4 {
+public class JavaCollectionsFramework_3 {
 
     public static void main(String[] args) {
         // списки

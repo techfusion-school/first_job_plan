@@ -1,4 +1,4 @@
-public class ObjectOrientedProgramming_3 {
+public class ObjectOrientedProgramming_2 {
 
     public static void main(String[] args) {
         TextMessage textMessage = new TextMessage("Hello world", "Anton");

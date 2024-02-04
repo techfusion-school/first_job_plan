@@ -2,7 +2,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-public class Concurrency_6 {
+public class Concurrency_5 {
 
 
     public static void main(String[] args) throws InterruptedException {
