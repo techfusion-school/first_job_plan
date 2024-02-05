@@ -4,7 +4,6 @@ package school.techfusion.lang;
 public class PrimitiveTypesAndObjects_0 {
 
     public static void main(String[] args) {
-
         // примитивные типы, их размеры (в спеке и в JVM (HotSpot)), области значений
         boolean a; // 1
         byte b; // 1

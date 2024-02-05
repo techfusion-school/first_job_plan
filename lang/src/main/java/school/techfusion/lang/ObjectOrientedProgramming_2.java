@@ -10,6 +10,11 @@ public class ObjectOrientedProgramming_2 {
         // полиморфизм
         Message msg = textMessage;
         System.out.println(msg.getAuthor());
+
+        // шаблоны проектирования
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("abc");
+        stringBuilder.append("bca");
     }
 }
 
