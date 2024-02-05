@@ -75,7 +75,9 @@ public class JavaCollectionsFramework_3 {
         intTreeSet.add(5); // O(log N)
         intTreeSet.add(4);
         intTreeSet.add(1);
+        System.out.printf("intTreeSet.contains(4) = %s\n", intTreeSet.contains(4)); // O(log N)
+        intTreeSet.remove(5); // O(log N)
 
-        System.out.println("intTreeSet = " + intTreeSet);
+        System.out.println("intTreeSet = " + intTreeSet); // отсортирован
     }
 }

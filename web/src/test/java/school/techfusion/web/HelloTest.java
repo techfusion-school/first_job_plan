@@ -19,7 +19,6 @@ public class HelloTest {
 
     @Test
     void testHello() throws Exception {
-        // when
         mockMvc.perform(get("/hello"))
                 .andExpect(status().isOk())
                 .andExpect(content().string("Hello world"));

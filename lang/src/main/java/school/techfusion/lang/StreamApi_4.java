@@ -21,7 +21,7 @@ public class StreamApi_4 {
         Map<Integer, String> resultHashMap = source.stream()
                 .collect(Collectors.toMap(num -> num, Object::toString));
 
-        System.out.printf("Stream source to result hashMap %s\n", result);
+        System.out.printf("Stream source to result hashMap %s\n", resultHashMap);
 
         // любой ли цикл можно легко заменить на stream API? Stream reduce API?
         int sum = 0;

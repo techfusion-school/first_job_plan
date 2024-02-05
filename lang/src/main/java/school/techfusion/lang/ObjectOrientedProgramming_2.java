@@ -1,5 +1,6 @@
 package school.techfusion.lang;
 
+@SuppressWarnings("UnnecessaryLocalVariable")
 public class ObjectOrientedProgramming_2 {
 
     public static void main(String[] args) {
