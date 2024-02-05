@@ -17,27 +17,27 @@ public class ArithmeticAndControlStructures_1 {
         int a = 5;
         int b = 3;
         if (a == 5 && b == 3) {
-            System.out.println("a == 5");
+            System.out.println("condition body");
         }
 
         // циклы
         int counter = 5;
         while (counter-- > 0) {
-            System.out.println("counter = " + counter);
+            System.out.printf("counter = %s", counter);
         }
 
         counter = 5;
         for (int i = 0; i < counter; i++) {
-            System.out.println("counter = " + counter);
+            System.out.printf("counter = %s", counter);
         }
 
         List<Integer> numList = List.of(1, 2, 3, 4, 5);
-        for (Integer i : numList) {
-            System.out.println(i);
+        for (Integer value : numList) {
+            System.out.printf("num  = %s", value);
         }
 
         do {
-            System.out.println("counter = " + counter);
+            System.out.printf("counter = %s", counter);
         } while (--counter > 0);
 
         // switch
